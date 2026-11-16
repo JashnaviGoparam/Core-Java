@@ -1,0 +1,13 @@
+initially first name "Green" -- 1991
+second "oak" -- 1991
+finally "Java" -- 1995 -- James Gosling
+write once run any where(WORA)
+java 1.0 (1996) -- JVM ,core libraries ,Applets- write once run any where(WORA)
+java 5 (2004) --Geniric annotations enums enhanced for loop
+DATA TYPES
+(Numeric) -- int,float,byte,short,double,long
+(string) -- char
+(boolean) -- true,false
+Rules and Regulation of variable
+-- does not start with special character
+--
