@@ -10,4 +10,43 @@ DATA TYPES
 (boolean) -- true,false
 Rules and Regulation of variable
 -- does not start with special character
---
+--does not start with numbers
+Method Explanation
+scanner method                       example                            return type
+nextInt()                             25                                    int
+nextLong()                          23456678L                               long
+nextFloat()                         45.6f                                    float
+nextDouble()                       2500.67                                   double
+next()                              janu                                     String
+nextLine()                      Hello java                                    String
+next().charAt(0)                A                                             char            
+nextBoolean()                  true                                          Boolean
+import java.util.Scanner;
+class Main{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the Age");
+        int age=sc.nextInt();
+        System.out.println("Enter the marks");
+        float marks=sc.nextFloat();
+        sc.next();
+        System.out.println("Enter the result");
+        String result=sc.nextLine();
+        System.out.println("Enter the Grade");
+        char Grade=sc.next().charAt(0);
+        System.out.println("Enter the total_marks");
+        long total_marks=sc.nextLong();
+        System.out.println("Enter the percentage");
+         double percentage=sc.nextDouble();
+        System.out.println(age);
+         System.out.println(marks);
+         System.out.println(result);
+         System.out.println(Grade);
+         System.out.println(total_marks);
+         System.out.println(percentage);
+        sc.close();
+        
+    }
+}
+
+Arthimetic operators : +,-,*,/,%
