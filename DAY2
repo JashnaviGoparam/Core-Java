@@ -1,4 +1,83 @@
 CONTROL STATEMENTS:
 conditional statments --- if,if else,else if ladder,nested if,switch
+
+syntax:if else
+if(condition){
+}
+else{
+}
+----------------------------------------------------------------
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter a number");
+        int a=sc.nextInt();
+          int b=sc.nextInt();
+        
+if(a>=b){
+    System.out.println("condition is true");
+}
+        else
+            System.out.println("condition is false");
+        
+  
+        sc.close();
+    }
+}
+------------------------------------------------------------------------------
+syntax:else if ladder
+
+if(condition){
+}
+else if{
+}
+else if{
+}
+else if{
+}
+else{
+}
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter a marks");
+        int a=sc.nextInt();
+         
+        
+        
+if(a>90){
+    System.out.println("GRADE A");
+}
+        else if(a>60&&a<8){
+            System.out.println("GRADE B");
+        }
+         else if(a>50&&a<60){
+            System.out.println("GRADE C");
+        }
+             else if(a>35&&a<50){
+            System.out.println("GRADE D");
+        }
+        else{
+            System.out.println("fail");
+            
+        }
+        
+  
+        sc.close();
+    }
+}
+==========================================================================================
+syntax: nested if
+if condition1{
+             if condition2{
+}
+
+
 looping statement -- for ,while,do-while
 jumping -- continue,break,return
+
