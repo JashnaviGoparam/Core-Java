@@ -691,5 +691,50 @@ int i=1;
     }
 }
 ==================================================================================================
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter number of students:");
+        int n = sc.nextInt();
+
+        String[] names = new String[n];
+        int[] ages = new int[n];
+        String[] status = new String[n];
+
+        for (int i = 0; i < n; i++) {
+
+            System.out.println("Enter name:");
+            names[i] = sc.next();
+
+            System.out.println("Enter age:");
+            ages[i] = sc.nextInt();
+
+            if (ages[i] >= 18) {
+                status[i] = "Eligible";
+            } else {
+                status[i] = "Not Eligible";
+            }
+        }
+
+        System.out.println("\n------------------------------------------");
+        System.out.printf("%-15s %-10s %-15s%n", "Name", "Age", "Status");
+        System.out.println("------------------------------------------");
+
+        for (int i = 0; i < n; i++) {
+            System.out.printf("%-15s %-10d %-15s%n",
+                    names[i], ages[i], status[i]);
+        }
+
+        System.out.println("------------------------------------------");
+
+        sc.close();
+    }
+}
+=====================================================================================================================================================
 jumping -- continue,break,return
 
