@@ -77,7 +77,268 @@ if condition1{
              if condition2{
 }
 
+import java.util.Scanner;
 
+class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter a marks");
+        int a=sc.nextInt();
+         
+        
+        
+if(a>0){
+    if(a%2==0){
+    System.out.println("even");
+    }
+    else{
+        System.out.println("odd");
+    }
+    
+}
+       
+        
+            System.out.println("negative or zero");
+            
+        
+        
+  
+        sc.close();
+    }
+}
+==========================================================================================
+SWITCH Syntax
+switch(condition){
+case 1:
+//statement1;
+//break;
+case 2:
+//statement2;
+//break;
+case n:
+//statementn;
+//break;
+default:
+}
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter a day(1-7)");
+        int day=sc.nextInt();
+         
+        
+        
+switch(day){
+    case 1:
+         System.out.println("M");
+         break;
+            case 2:
+         System.out.println("tues");
+         break;
+            case 3:
+         System.out.println("wed");
+         break;
+            case 4:
+         System.out.println("thurs");
+         break;
+            case 5:
+         System.out.println("f");
+         break;
+            case 6:
+         System.out.println("sat");
+         break;
+            case 7:
+         System.out.println("sun");
+         break;
+    default:
+           
+         System.out.println("Enter the correct number");
+       
+        
+}
+
+    
+  
+        sc.close();
+    }
+}
+=============================================================================================================================
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter two numbers:");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        System.out.println("Enter operator (+,-,*,/,%)");
+        char operator = sc.next().charAt(0);
+
+        switch (operator) {
+
+            case '+':
+                System.out.println("Addition: " + (a + b));
+                break;
+
+            case '-':
+                System.out.println("Subtraction: " + (a - b));
+                break;
+
+            case '*':
+                System.out.println("Multiplication: " + (a * b));
+                break;
+
+            case '/':
+                if (b != 0) {
+                    System.out.println("Division: " + (a / b));
+                } else {
+                    System.out.println("Cannot divide by zero");
+                }
+                break;
+
+            case '%':
+                if (b != 0) {
+                    System.out.println("Modulus: " + (a % b));
+                } else {
+                    System.out.println("Cannot divide by zero");
+                }
+                break;
+
+            default:
+                System.out.println("Enter the correct operator");
+        }
+
+        sc.close();
+    }
+}
+======================================================================================================================================
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter a branches num ");
+        int branch=sc.nextInt();
+         
+        
+        
+switch(branch){
+    case 1:
+         System.out.println("cse");
+         break;
+            case 2:
+         System.out.println("ece");
+         break;
+            case 3:
+         System.out.println("eee");
+         break;
+            case 4:
+         System.out.println("ai/ml");
+         break;
+            case 5:
+         System.out.println("cse-ai");
+         break;
+            case 6:
+         System.out.println("cse-ds");
+         break;
+            case 7:
+         System.out.println("mech");
+         break;
+    default:
+           
+         System.out.println("Enter the correct number");
+       
+        
+}
+
+    
+  
+        sc.close();
+    }
+}
+===================================================================================
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter month number (1-12):");
+        int month = sc.nextInt();
+
+        switch (month) {
+
+            case 1:
+                System.out.println("January - 31 days");
+                break;
+
+            case 2:
+                System.out.println("February - 28 or 29 days");
+                break;
+
+            case 3:
+                System.out.println("March - 31 days");
+                break;
+
+            case 4:
+                System.out.println("April - 30 days");
+                break;
+
+            case 5:
+                System.out.println("May - 31 days");
+                break;
+
+            case 6:
+                System.out.println("June - 30 days");
+                break;
+
+            case 7:
+                System.out.println("July - 31 days");
+                break;
+
+            case 8:
+                System.out.println("August - 31 days");
+                break;
+
+            case 9:
+                System.out.println("September - 30 days");
+                break;
+
+            case 10:
+                System.out.println("October - 31 days");
+                break;
+
+            case 11:
+                System.out.println("November - 30 days");
+                break;
+
+            case 12:
+                System.out.println("December - 31 days");
+                break;
+
+            default:
+                System.out.println("Invalid month number");
+        }
+
+        sc.close();
+    }
+}
+=====================================================================================================================================================
 looping statement -- for ,while,do-while
+==================================================================================================================================
+for loop
+
+for(initialize;condition;increment/dec){
+}
 jumping -- continue,break,return
 
