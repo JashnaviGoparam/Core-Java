@@ -1,0 +1,33 @@
+STRINGS
+String s="java" 
+System.out.println(s.length());
+charAt()
+System.out.println(s.charAt(1));
+toUpperCase()
+System.out.println(s.toUppercase();
+toLowercase()
+System.out.println(s.toLowercase());
+s.equals()
+String a="java"
+String b="java"
+System.out.println(a.equals(b));
+equalsIgnoreCase()
+System.out.println(a.equalsIgnoreCase(b));
+contains()
+System.out.println(s.contains("java"));
+substring()
+String s = "Programming";
+System.out.println(s.substring(0, 4));
+replace()
+String s = "Java";
+System.out.println(s.replace('a', 'o'));
+trim()
+String s = "  Hello  ";
+System.out.println(s.trim());
+startsWith()
+String s = "Java Programming";
+System.out.println(s.startsWith("Java"));
+
+
+
+
