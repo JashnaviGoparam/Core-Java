@@ -1,4 +1,4 @@
-String:
+zzzzzzzzzzzzzzzString:
 import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
@@ -154,7 +154,36 @@ class Main {
     }
 }
 
+acces modifiers:
+public,private,protected,default
+types of variables:
+local,global,instance
+types of functions:
+1.with parameter,return type
+2.with parameter ,no return type
+3.wihtout parameter,with return type
+4.without parameter,without return type
 
+program usin static:
+class janu{
+static int teju(ini a,,int b){
+return a*b;
+}
+psvm{
+janu.teju(10,20);
+}
+}
+=======================================
+
+program using non-static:
+class janu{
+non-static int teju(ini a,,int b){
+return a*b;
+}
+psvm{
+janu.teju(10,20);
+}
+}
 
 
 
