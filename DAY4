@@ -1,1 +1,14 @@
+String:
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc =new Scanner(System.in);
+        System.out.println("enter a string");
+        String s= sc.nextLine();
+        String obj=new String("hello");
+        System.out.println(obj+" "+s);
+    }
+    
+    }
+========================================================================================================================
 
