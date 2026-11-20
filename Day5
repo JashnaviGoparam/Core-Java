@@ -1,0 +1,37 @@
+OBJECT ORIENTED PROGRAMMING LANGUAGE:
+   1)Encapsulation -- binding of data , protecting the data from direct access.
+   2)polymorphism -- perform one action in many ways
+   3)Abstraction -- shows only needed information
+   4)Inheritance -- one class take the properties from another class
+TYPES OF INHERITANCE:
+   1)single : One child class inherits from one parent class.
+         class A{
+               //Block of code
+                }
+                 class B extendss class A{
+                //Block
+                }
+               class main{
+                  psvm{
+                    //obj
+                    }
+                   }
+   2)multilevel:One class inherits from another child class, forming a chain.
+           class A{
+               //Block of code
+                }
+                 class B extendss class A{
+                //Block
+                }
+                 class C extends class B{
+               class main{   }
+                  psvm{
+                    //obj
+                    }
+                   }
+   3)hierarchical:Multiple child classes inherit from one parent class.
+
+   4)multiple --- only through interface not from class
+   5)hybrid
+OVERLOADING == class have same methods and diff parameters
+OVERRIDDING ==  class have same methods and same parameters
