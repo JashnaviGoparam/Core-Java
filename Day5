@@ -30,8 +30,34 @@ TYPES OF INHERITANCE:
                     }
                    }
    3)hierarchical:Multiple child classes inherit from one parent class.
+           class A{
+           }
+          class B extends class A{
+            }
+          class C extends class A{
+          }
 
    4)multiple --- only through interface not from class
+         interfacce A{
+                   }
+         interface B{
+             }
+         class C implements A,B{
+              }
+         class main{   }
+                  psvm{
+                    //obj
+                    }
+                   }
+
    5)hybrid
+
+     class A{
+          }
+      class B{
+       }
+      class C extends A,B{
+       }
+============================================================================================================
 OVERLOADING == class have same methods and diff parameters
 OVERRIDDING ==  class have same methods and same parameters
